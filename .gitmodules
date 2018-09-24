@@ -1,0 +1,6 @@
+[submodule "65c02_emu"]
+	path = 65c02_emu
+	url = https://github.com/inindev/65c02_emu.git
+[submodule "apple2e"]
+	path = apple2e
+	url = https://github.com/inindev/apple2e.git
