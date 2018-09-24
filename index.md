@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+---
+layout: page
+title: 6502 playground
+tagline: w65c02s processor in ES6
+description: projects based on the 6502 / 65c02 / w65c02s processor emulated in ES6 by John Clark, 2018
+---
 
-You can use the [editor on GitHub](https://github.com/inindev/inindev.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Projects based on the w65c02s processor
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Featured Projects
 
-### Markdown
+- [Virtual Apple IIe](https://inindev.github.io/apple2e/index.html) - A virtual Apple IIe computer written using ES6&nbsp;&nbsp;([source](https://github.com/inindev/apple2e))
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [6502 Trainer](https://inindev.github.io/65c02_emu/test/index.html) - A trainer and debugger for the 65c02 processor written using ES6&nbsp;&nbsp;([source](https://github.com/inindev/65c02_emu))
 
-```markdown
-Syntax highlighted code block
+&nbsp;
 
-# Header 1
-## Header 2
-### Header 3
+&nbsp;
 
-- Bulleted
-- List
+&nbsp;
 
-1. Numbered
-2. List
+&nbsp;
 
-**Bold** and _Italic_ and `Code` text
+---
 
-[Link](url) and ![Image](src)
-```
+see it on [github](https://github.com/inindev)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/inindev/inindev.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+2018 John Clark
