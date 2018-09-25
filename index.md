@@ -1,10 +1,9 @@
-## Projects based on the w65c02s processor
+## 6502 CPU Projects
 
 ### Featured Projects
 
-- [Virtual Apple IIe](https://inindev.github.io/apple2e/index.html) - A virtual Apple IIe computer written using ES6&nbsp;&nbsp;([source](https://github.com/inindev/apple2e))
-
-- [6502 Trainer](https://inindev.github.io/65c02_emu/test/index.html) - A trainer and debugger for the 65c02 processor written using ES6&nbsp;&nbsp;([source](https://github.com/inindev/65c02_emu))
+- <a target="_blank" href="https://inindev.github.io/apple2e/index.html">Virtual Apple IIe</a> - A virtual Apple IIe computer written in ES6&nbsp;&nbsp;(<a target="_blank" href="https://github.com/inindev/apple2e">source</a>)
+- <a target="_blank" href="https://inindev.github.io/65c02_emu/test/index.html">6502 Trainer</a> - A trainer and debugger for the 65c02 processor written in ES6&nbsp;&nbsp;(<a target="_blank" href="https://github.com/inindev/65c02_emu">source</a>)
 
 &nbsp;
 
@@ -16,6 +15,6 @@
 
 ---
 
-see it on [github](https://github.com/inindev)
+see it on <a target="_blank" href="https://github.com/inindev">github</a>
 
 2018 John Clark
