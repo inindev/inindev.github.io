@@ -1,10 +1,3 @@
----
-layout: page
-title: 6502 playground
-tagline: w65c02s processor in ES6
-description: projects based on the 6502 / 65c02 / w65c02s processor emulated in ES6 by John Clark, 2018
----
-
 ## Projects based on the w65c02s processor
 
 ### Featured Projects
