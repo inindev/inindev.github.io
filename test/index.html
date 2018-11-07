@@ -1,0 +1,50 @@
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>html testbed</title>
+  <style type="text/css">
+    body {
+        margin:80px;
+        padding:0px;
+        font-size:13px;
+        font-family:"Lucida Console", Monaco, monospace;
+        background:#3bb;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="output"></div>
+  <br><br><br><br>
+  <button id="test">test</button>
+
+  <script type="module">
+    let output;
+
+    function test() {
+        //document.location.hash
+        const file = window.location.search.substr(1);
+        output.innerHTML = file;
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', file);
+        xhr.onload = function() {
+            if(xhr.status === 200) {
+                output.innerHTML = "type: " + xhr.responseType;
+            } else {
+                output.innerHTML = "request failed, status: " + xhr.status;
+            }
+        };
+        xhr.send();
+    }
+
+    document.getElementById("test").addEventListener("click", test);
+    output = document.getElementById("output");
+
+  </script>
+</body>
+</html>
+
+
+
+
